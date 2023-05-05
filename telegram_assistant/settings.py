@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'telegram_bot',
 ]
 
 MIDDLEWARE = [
@@ -123,4 +122,3 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure')
-TELEGRAM_BOT_KEY = os.getenv('TELEGRAM_BOT_KEY', 'django-insecure')
